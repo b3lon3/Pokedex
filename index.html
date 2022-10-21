@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="pokedex.css">
+    <script defer src="script.js"></script>
+
+    <title>Belone Pokedex</title>
+</head>
+<body>
+    <main>
+        <img src="" alt="Pokemon Gif" id="pokemon_gif">
+
+        <h1 id="dados">
+            <span id="pokemon_id"></span> -
+            <span id="pokemon_nome" ></span>
+        </h1>
+
+        <form id="form">
+            <input type="search" id="search" placeholder="Nome ou Numero" required>
+        </form>
+
+        <div id="buttons">
+            <button class="button btn-prev" onclick="prev()">Prev &lt </button>
+            <button class="button btn-next" onclick="next()">&gt Next </button>
+        </div>
+
+        <img id="pokedex" src="./images/image.png" alt="Pokedex">
+    </main>
+</body>
+</html>
